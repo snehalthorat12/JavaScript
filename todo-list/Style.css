@@ -1,0 +1,119 @@
+/* ====== General Body Styling ====== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ====== Container Styling ====== */
+.container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  width: 400px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+/* ====== Input Section (Add Task) ====== */
+.input-section {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #764ba2;
+  border-radius: 10px;
+  outline: none;
+}
+
+.input-section button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: #764ba2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.input-section button:hover {
+  background: #5a348c;
+}
+
+/* ====== Search + Filter Section ====== */
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.search-filter input {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.search-filter select {
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  outline: none;
+}
+
+/* ====== Task List ====== */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+/* Completed task style */
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+  background: #e0e0e0;
+}
+
+/* ====== Action Buttons ====== */
+.actions button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complete-btn {
+  background: #28a745;
+  color: white;
+}
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
