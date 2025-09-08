@@ -1,1 +1,35 @@
+📝 To-Do List App
 
+A simple To-Do List Application built with HTML, CSS, and JavaScript.
+This app allows you to add, delete, complete, search, and filter tasks with an attractive UI.
+
+🚀 Features
+
+➕ Add new tasks
+
+✅ Mark tasks as completed / undo
+
+❌ Delete tasks
+
+🔍 Search tasks (live search)
+
+🎯 Filter tasks (All / Completed / Pending)
+
+🎨 Modern and clean UI design
+
+📂 Project Structure
+todo-app/
+│
+├── index.html      # Main HTML file
+├── style.css       # Styling (UI/UX)
+├── script.js       # JavaScript functionality
+└── README.md       # Project documentation
+
+
+⚡ How to Run
+
+Clone or download this repository.
+
+Open index.html in your browser.
+
+Start adding tasks! 🎉
